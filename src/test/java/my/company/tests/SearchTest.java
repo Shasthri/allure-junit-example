@@ -18,7 +18,7 @@ public class SearchTest {
     @Before
     public void setUp() throws Exception {
         ChromeOptions options = new ChromeOptions();
-        options.setBinary("/usr/lib64/firefox/browser");
+        options.setBinary("/usr/lib64/firefox/browser/chrome");
         ChromeDriverManager.getInstance().setup();
         steps = new WebDriverSteps(new ChromeDriver(options));
     }
