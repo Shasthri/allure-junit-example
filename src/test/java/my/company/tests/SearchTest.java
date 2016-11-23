@@ -1,5 +1,6 @@
 package my.company.tests;
 
+package org.openqa.selenium.chrome;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import my.company.steps.WebDriverSteps;
 import org.junit.Before;
